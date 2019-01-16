@@ -1,0 +1,13 @@
+
+
+template <typename DATA_TYPE>
+bool MemoryLeak::_delete(DATA_TYPE delete_addr, const char *file_position = NULL, int line = -1)
+
+template <typename DATA_TYPE>
+DATA_TYPE* MemoryLeak::_malloc(int len = 1, const char *file_position = NULL, int line = -1)
+
+void MemoryLeak::DisplayAllStatics()
+
+void MemoryLeak::DisplayAllRelease()
+
+void MemoryLeak::DisplayMallocStatics()
